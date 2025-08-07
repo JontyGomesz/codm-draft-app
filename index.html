@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CODM Team Bidding</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>CODM Draft Voting</h1>
+    <div class="player" id="playerName">Loading player...</div>
+    <div class="vote-buttons">
+      <button class="vote" onclick="vote('Team A')">Team A</button>
+      <button class="vote" onclick="vote('Team B')">Team B</button>
+    </div>
+    <div class="status" id="status">Waiting for vote...</div>
+  </div>
+
+  <!-- Firebase SDKs -->
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
